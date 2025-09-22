@@ -307,5 +307,3 @@ Parar com tecla `S`:
 - Exportar histórico para CSV/JSON para análise posterior.
 
 ---
-
-Se quiser que eu adicione exemplos concretos de `config.json` ou um `requirements.txt`, eu atualizo em seguida.

@@ -1,0 +1,27 @@
+{
+  "thresholds": {
+    "cpu": 50.0,
+    "memory_gb": 4.0,
+    "network_mbps": 5.0
+  },
+  "monitoring": {
+    "interval_seconds": 10,
+    "alert_cooldown_minutes": 5,
+    "sustained_seconds": 20
+  },
+  "logging": {
+    "log_file": "./docker_monitor.log",
+    "log_level": "INFO",
+    "max_bytes_mb": 10,
+    "backup_count": 3
+  },
+  "daemon": {
+    "pid_file": "./docker_monitor.pid"
+  }
+  ,
+  "telegram": {
+    "enabled": true,
+    "bot_token": "",
+    "chat_id": ""
+  }
+}
